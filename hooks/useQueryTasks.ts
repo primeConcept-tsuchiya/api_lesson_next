@@ -2,7 +2,6 @@ import { Task } from '@prisma/client';
 import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { useRouter } from 'next/router';
-import React from 'react'
 
 const UseQueryTasks = () => {
     const router = useRouter()

@@ -86,6 +86,8 @@ const UseMutateTask = () => {
         }
     )
 
+    return { createTaskMutation, updateTaskMutation, deleteTaskMutaion }
+
 }
 
 export default UseMutateTask;
